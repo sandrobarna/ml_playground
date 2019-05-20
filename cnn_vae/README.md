@@ -5,8 +5,8 @@ and playing with simple Convolutional Variational Auto-Encoders.
 
 Experiments are done on face-aligned and face-cropped MS Celebrity face dataset.
 
-VGG16 is used for perceptual loss and transposed convolution as well ass subpixel convolutions 
-(pixel shuffle) can be tried for training. 
+VGG16 is used for perceptual loss and transposed convolution as well as subpixel convolution
+(pixel shuffle) can be tried out for training. 
 
 References:<br />
 https://arxiv.org/abs/1312.6114<br />
