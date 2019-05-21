@@ -1,12 +1,12 @@
 # Experimenting with Simple CNN Variational Auto-Encoders
 
 This repo contains single notebook containing code for training 
-and playing with simple Convolutional Variational Auto-Encoders. 
+and playing with simple Convolutional Variational Auto-Encoders using PyTorch and Fastai libraries.
 
-Experiments are done on face-aligned and face-cropped MS Celebrity face dataset.
+Experiments are done on face-aligned and face-cropped MS Celebrity face dataset (~200K images).
 
 VGG16 is used for perceptual loss and transposed convolution as well as subpixel convolution
-(pixel shuffle) can be tried out for training. 
+(pixel shuffle) can be tried out for upscaling layers. 
 
 References:<br />
 https://arxiv.org/abs/1312.6114<br />
